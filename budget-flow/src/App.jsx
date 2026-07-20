@@ -1,14 +1,16 @@
-
+import MainLayout from "./layouts/MainLayout";
+import Dashboard from "./pages/Dashboard";
 import './App.css'
 
 function App() {
-
-
   return (
     <>
-      <h1>Hello BudgetFlow</h1>
+      <MainLayout>
+        <Dashboard />
+      </MainLayout>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
