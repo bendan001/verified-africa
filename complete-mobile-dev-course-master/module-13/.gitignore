@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+bun.lockb
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+web-report/
+expo-env.d.ts
+.expo-dev-client/
+
+# Metro Bundler
+.metro-health-check*
+
+# Build & Output
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS/Editor
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local Env
+.env
+.env.local
+.env*.local
+*.pem
+*.key
+
+# TypeScript
+*.tsbuildinfo
+
+# Native (managed by Expo prebuild)
+ios/
+android/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+.kotlin/
+
+# Testing/Coverage
+coverage/
+*.lcov
+
+# Clerk/React Native specific
+clerk/
+*.apk
+*.aab
+*.ipa
+
+# Development/Debug
+app-example
+.nyc_output
+
+# Logs
+*.log
